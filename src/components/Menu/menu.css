@@ -1,0 +1,21 @@
+div#header-content{
+    height: 60px;
+    background: #272727;
+    border-bottom: 1px solid #F1C40F;
+}
+div#header-content .menu-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+div#header-content .menu-content a{
+    margin: 1%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;  
+    font-weight: bold;
+}
+div#header-content .menu-content a:hover{
+    transition: all 0.5s;
+    opacity: 0.5;
+}
